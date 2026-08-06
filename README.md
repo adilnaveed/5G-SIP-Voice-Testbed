@@ -1,4 +1,4 @@
-# OAI 5G + SIP Voice Testbed with AI-based QoS Monitoring
+# OAI 5G + SIP Voice Testbed with Standards-Based QoS Prediction and Monitoring
 
 A complete, working 5G Standalone (SA) testbed built with OpenAirInterface (OAI), featuring an
 over-the-top SIP voice service (Kamailio + RTPengine + baresip) running genuinely over the 5G
