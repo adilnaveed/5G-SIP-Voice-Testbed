@@ -124,6 +124,9 @@ Bidirectional call established between both SIP clients, with confirmed incoming
 
 ![Call established](screenshots/Call_established.png)
 
+Real audio recordings from this call (automatically captured by baresip's `sndfile` module):
+- [`evidence/call_audio_baresip1.wav`](evidence/call_audio_baresip1.wav)
+- [`evidence/call_audio_baresip2.wav`](evidence/call_audio_baresip2.wav)
 ### RTPengine media relay confirmation
 RTPengine logs confirming it received the call offer/answer from Kamailio, and confirmed real peer addresses on both media legs — proving genuine media relay, not just SIP signaling. The "No support for kernel packet forwarding" warning is a known, non-blocking WSL2 limitation (no in-kernel forwarding module available); RTPengine automatically falls back to userspace forwarding, which works correctly as shown:
 
