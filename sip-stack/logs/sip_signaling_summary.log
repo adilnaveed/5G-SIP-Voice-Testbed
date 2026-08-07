@@ -1,0 +1,28 @@
+19(26) NOTICE: {2 17692 INVITE 2d832871451e134c} acc [acc.c:288]: acc_log_request(): ACC: call missed: timestamp=1784570221;method=INVITE;from_tag=580df9031967a475;to_tag=764fbe765fd8cf8a;call_id=2d832871451e134c;code=486;reason=Busy Here;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0x3979d220;dst_domain=10.0.0.3
+23(30) NOTICE: {2 10628 INVITE 49665add72ceacf3} acc [acc.c:288]: acc_log_request(): ACC: call missed: timestamp=1784570453;method=INVITE;from_tag=76f8a1364fefbc05;to_tag=1712d07c6a3b2ffd;call_id=49665add72ceacf3;code=486;reason=Busy Here;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0x3979d220;dst_domain=10.0.0.3
+26(33) NOTICE: acc [acc.c:288]: acc_log_request(): ACC: call missed: timestamp=1784570677;method=INVITE;from_tag=02329b56778ae256;to_tag=a6a1c5f60faecf035a1ae5b6e96e979a-c7020591;call_id=4b88d82a349a4077;code=408;reason=Request Timeout;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0x3979d220;dst_domain=10.0.0.3
+26(33) NOTICE: acc [acc.c:288]: acc_log_request(): ACC: call missed: timestamp=1784571141;method=INVITE;from_tag=50a258303aac3c60;to_tag=a6a1c5f60faecf035a1ae5b6e96e979a-e508bc0e;call_id=2c659eb46912a074;code=408;reason=Request Timeout;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0x175eaed0;dst_domain=10.0.0.3
+24(31) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+17(24) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+19(26) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+20(27) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+22(29) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+23(30) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+17(24) ERROR: <core> [core/parser/msg_parser.c:794]: parse_msg(): ERROR: parse_msg: message=<INVITE sip:ocker attach baresip1@192.168.70.160 SIP/2.0
+CSeq: 9524 INVITE
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,NOTIFY,SUBSCRIBE,INFO,MESSAGE,REFER
+21(28) NOTICE: {2 29297 INVITE 6b8c1adc72bc5b37} acc [acc.c:288]: acc_log_request(): ACC: call missed: timestamp=1784571341;method=INVITE;from_tag=1905b47a03b2b7a6;to_tag=4ba7bd5b1f22147e;call_id=6b8c1adc72bc5b37;code=486;reason=Busy Here;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0x2fcbe220;dst_domain=10.0.0.3
+21(28) NOTICE: {2 844 INVITE 35562f4e2535d846} acc [acc.c:288]: acc_log_request(): ACC: transaction answered: timestamp=1784571450;method=INVITE;from_tag=60ad5f85245d080b;to_tag=1478b3e13c5c08f5;call_id=35562f4e2535d846;code=200;reason=Answering;src_user=100;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=200;dst_user=200-0xf8a9220;dst_domain=10.0.0.3
+25(32) NOTICE: acc [acc.c:288]: acc_log_request(): ACC: transaction answered: timestamp=1784571659;method=BYE;from_tag=1478b3e13c5c08f5;to_tag=60ad5f85245d080b;call_id=35562f4e2535d846;code=408;reason=Request Timeout;src_user=200;src_domain=192.168.70.160;src_ip=192.168.70.134;dst_ouser=100;dst_user=100-0x302c5e80;dst_domain=10.0.0.2

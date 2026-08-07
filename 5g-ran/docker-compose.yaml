@@ -1,0 +1,72 @@
+services:
+    oai-gnb:
+        container_name: "oai-gnb"
+        image: oaisoftwarealliance/oai-gnb:develop
+        volumes:
+            - ./conf/gnb.yaml:/opt/oai-gnb/etc/gnb.yaml
+        privileged: true
+        cgroup: host
+        environment:
+            - TZ=Europe/Paris
+            - USE_ADDITIONAL_OPTIONS=--rfsim --log_config.global_log_options level,nocolor,time
+            - GNB_NAME=oai-gnb-rfsim
+            - MCC=001
+            - MNC=01
+            - MNC_LENGTH=2
+            - TAC=1
+            - NSSAI_SST=1
+            - NSSAI_SD=FFFFFF
+            - AMF_IP_ADDRESS=192.168.70.132
+            - GNB_NGA_IF_NAME=eth0
+            - GNB_NGA_IP_ADDRESS=192.168.70.140
+            - GNB_NGU_IF_NAME=eth0
+            - GNB_NGU_IP_ADDRESS=192.168.70.140
+        networks:
+            public_net:
+                ipv4_address: 192.168.70.140
+
+    oai-nr-ue:
+        container_name: "oai-nr-ue"
+        image: oaisoftwarealliance/oai-nr-ue:develop
+        volumes:
+            - ./conf/nrue.uicc.conf:/opt/oai-nr-ue/etc/nr-ue.conf
+        privileged: true
+        cgroup: host
+        cap_add:
+            - NET_ADMIN
+            - NET_RAW
+        environment:
+            - TZ=Europe/Paris
+            - USE_ADDITIONAL_OPTIONS=--rfsim -r 106 --numerology 1 -C 3619200000 --rfsimulator.serveraddr 192.168.70.140 --log_config.global_log_options level,nocolor,time --uicc0.imsi 001010000000001 --uicc0.key fec86ba6eb707ed08905757b1bb44b8f --uicc0.opc C42449363BBAD02B66D16BC975D77CC1 --uicc0.dnn oai --uicc0.nssai_sst 1
+        devices:
+            - /dev/net/tun:/dev/net/tun
+        depends_on:
+            - oai-gnb
+        networks:
+            public_net:
+                ipv4_address: 192.168.70.150
+    oai-nr-ue2:
+        container_name: "oai-nr-ue2"
+        image: oaisoftwarealliance/oai-nr-ue:develop
+        privileged: true
+        volumes:
+            - ./conf/nrue2.uicc.conf:/opt/oai-nr-ue/etc/nr-ue.conf
+        cgroup: host
+        cap_add:
+            - NET_ADMIN
+            - NET_RAW
+        environment:
+            - TZ=Europe/Paris
+            - USE_ADDITIONAL_OPTIONS=--rfsim -r 106 --numerology 1 -C 3619200000 --rfsimulator.serveraddr 192.168.70.140 --log_config.global_log_options level,nocolor,time --uicc0.imsi 001010000000002 --uicc0.key fec86ba6eb707ed08905757b1bb44b8f --uicc0.opc C42449363BBAD02B66D16BC975D77CC1 --uicc0.dnn oai --uicc0.nssai_sst 1
+        devices:
+            - /dev/net/tun:/dev/net/tun
+        depends_on:
+            - oai-gnb
+        networks:
+            public_net:
+                ipv4_address: 192.168.70.151
+
+networks:
+    public_net:
+        external: true
+        name: oai-cn5g-public-net

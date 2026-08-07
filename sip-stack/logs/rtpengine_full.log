@@ -1,0 +1,280 @@
+[1784569527.892054] INFO: [crypto] Generating new DTLS certificate
+[1784569527.903530] ERR: [core] FAILED TO CREATE KERNEL TABLE 0 (No such file or directory), KERNEL FORWARDING DISABLED
+[1784569527.982372] INFO: [core] Startup complete, version 11.2.0.0+0~mr11.2.0.0 git-master-59e4707e
+[1784569527.986852] INFO: [http] Websocket listener thread running
+[1784569558.839356] INFO: [control] Received command 'ping' from 192.168.70.160:41512
+[1784569558.839435] INFO: [control] Replying to 'ping' from 192.168.70.160:41512 (elapsed time 0.000000 sec)
+[1784569618.921666] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569618.921756] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000000 sec)
+[1784569678.905456] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569678.905516] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784569738.923891] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569738.924055] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784569798.902797] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569798.903196] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784569858.888508] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569858.888581] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784569918.904951] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569918.905647] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784569981.782583] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784569981.782722] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570041.768419] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570041.768498] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570101.121347] INFO: [2d832871451e134c]: [control] Received command 'offer' from 192.168.70.160:42511
+[1784570101.121625] WARNING: [2d832871451e134c]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784570101.122227] NOTICE: [2d832871451e134c]: [core] Creating new call
+[1784570101.125252] INFO: [2d832871451e134c]: [control] Replying to 'offer' from 192.168.70.160:42511 (elapsed time 0.003667 sec)
+[1784570101.771433] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570101.771515] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570161.796859] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570161.796989] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570221.189527] INFO: [2d832871451e134c]: [control] Received command 'delete' from 192.168.70.160:51415
+[1784570221.189723] INFO: [2d832871451e134c]: [core] Scheduling deletion of call branch '580df9031967a475' (via-branch '') in 30 seconds
+[1784570221.189742] INFO: [2d832871451e134c]: [control] Replying to 'delete' from 192.168.70.160:51415 (elapsed time 0.000142 sec)
+[1784570224.622737] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570224.622777] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784570251.000274] INFO: [2d832871451e134c]: [core] Call branch '580df9031967a475' (via-branch '') deleted, no more branches remaining
+[1784570251.002892] INFO: [2d832871451e134c]: [core] Final packet stats:
+[1784570251.002908] INFO: [2d832871451e134c]: [core] --- Tag '580df9031967a475', created 2:30 ago for branch ''
+[1784570251.002911] INFO: [2d832871451e134c]: [core] ---     subscribed to ''
+[1784570251.002913] INFO: [2d832871451e134c]: [core] ---     subscription for ''
+[1784570251.002923] INFO: [2d832871451e134c]: [core] ------ Media #1 (audio over RTP/AVP) using unknown codec
+[1784570251.002933] INFO: [2d832871451e134c]: [core] --------- Port  192.168.70.161:30014 <>  192.168.70.134:10010, SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 5992 p, 1030624 b, 0 e
+[1784570251.002937] INFO: [2d832871451e134c]: [core] --------- Port  192.168.70.161:30015 <>  192.168.70.134:10011 (RTCP), SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 25 p, 1540 b, 0 e
+[1784570251.002942] INFO: [2d832871451e134c]: [core] --- Tag '', created 2:30 ago for branch ''
+[1784570251.002945] INFO: [2d832871451e134c]: [core] ---     subscribed to '580df9031967a475'
+[1784570251.002946] INFO: [2d832871451e134c]: [core] ---     subscription for '580df9031967a475'
+[1784570251.002953] INFO: [2d832871451e134c]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784570251.002981] INFO: [2d832871451e134c]: [core] --------- Port  192.168.70.161:30000 <>                :0    , SSRC 54cdada5, in 5992 p, 1030624 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784570251.003025] INFO: [2d832871451e134c]: [core] --------- Port  192.168.70.161:30001 <>                :0     (RTCP), SSRC 54cdada5, in 25 p, 1540 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784570281.754309] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570281.754423] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570333.438863] INFO: [49665add72ceacf3]: [control] Received command 'offer' from 192.168.70.160:42269
+[1784570333.438923] WARNING: [49665add72ceacf3]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784570333.439336] NOTICE: [49665add72ceacf3]: [core] Creating new call
+[1784570333.441571] INFO: [49665add72ceacf3]: [control] Replying to 'offer' from 192.168.70.160:42269 (elapsed time 0.002650 sec)
+[1784570341.761024] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570341.761123] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784570401.805284] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570401.805341] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570453.536733] INFO: [49665add72ceacf3]: [control] Received command 'delete' from 192.168.70.160:44079
+[1784570453.537269] INFO: [49665add72ceacf3]: [core] Scheduling deletion of call branch '76f8a1364fefbc05' (via-branch '') in 30 seconds
+[1784570453.537354] INFO: [49665add72ceacf3]: [control] Replying to 'delete' from 192.168.70.160:44079 (elapsed time 0.000552 sec)
+[1784570461.783208] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570461.783808] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784570485.958234] INFO: [49665add72ceacf3]: [core] Call branch '76f8a1364fefbc05' (via-branch '') deleted, no more branches remaining
+[1784570485.958339] INFO: [49665add72ceacf3]: [core] Final packet stats:
+[1784570485.958346] INFO: [49665add72ceacf3]: [core] --- Tag '76f8a1364fefbc05', created 2:32 ago for branch ''
+[1784570485.958349] INFO: [49665add72ceacf3]: [core] ---     subscribed to ''
+[1784570485.958352] INFO: [49665add72ceacf3]: [core] ---     subscription for ''
+[1784570485.958361] INFO: [49665add72ceacf3]: [core] ------ Media #1 (audio over RTP/AVP) using unknown codec
+[1784570485.958371] INFO: [49665add72ceacf3]: [core] --------- Port  192.168.70.161:30040 <>  192.168.70.134:10016, SSRC 0, in 0 p, 0 b, 0 e, 152 ts, out 5998 p, 1031656 b, 0 e
+[1784570485.958376] INFO: [49665add72ceacf3]: [core] --------- Port  192.168.70.161:30041 <>  192.168.70.134:10017 (RTCP), SSRC 0, in 0 p, 0 b, 0 e, 152 ts, out 25 p, 1540 b, 0 e
+[1784570485.958381] INFO: [49665add72ceacf3]: [core] --- Tag '', created 2:32 ago for branch ''
+[1784570485.958383] INFO: [49665add72ceacf3]: [core] ---     subscribed to '76f8a1364fefbc05'
+[1784570485.958385] INFO: [49665add72ceacf3]: [core] ---     subscription for '76f8a1364fefbc05'
+[1784570485.958390] INFO: [49665add72ceacf3]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784570485.958396] INFO: [49665add72ceacf3]: [core] --------- Port  192.168.70.161:30026 <>                :0    , SSRC 6a1a1051, in 5998 p, 1031656 b, 0 e, 32 ts, out 0 p, 0 b, 0 e
+[1784570485.958400] INFO: [49665add72ceacf3]: [core] --------- Port  192.168.70.161:30027 <>                :0     (RTCP), SSRC 6a1a1051, in 25 p, 1540 b, 0 e, 32 ts, out 0 p, 0 b, 0 e
+[1784570521.773229] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570521.773304] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570558.352243] INFO: [4b88d82a349a4077]: [control] Received command 'offer' from 192.168.70.160:33854
+[1784570558.352444] WARNING: [4b88d82a349a4077]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784570558.358539] NOTICE: [4b88d82a349a4077]: [core] Creating new call
+[1784570558.371115] INFO: [4b88d82a349a4077]: [control] Replying to 'offer' from 192.168.70.160:33854 (elapsed time 0.018671 sec)
+[1784570581.768515] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570581.768842] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784570640.782933] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570640.783022] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570677.709529] INFO: [4b88d82a349a4077]: [control] Received command 'delete' from 192.168.70.160:52082
+[1784570677.710218] INFO: [4b88d82a349a4077]: [core] Scheduling deletion of call branch '02329b56778ae256' (via-branch '') in 30 seconds
+[1784570677.710292] INFO: [4b88d82a349a4077]: [control] Replying to 'delete' from 192.168.70.160:52082 (elapsed time 0.000556 sec)
+[1784570700.818063] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570700.818243] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784570708.000527] INFO: [4b88d82a349a4077]: [core] Call branch '02329b56778ae256' (via-branch '') deleted, no more branches remaining
+[1784570708.000787] INFO: [4b88d82a349a4077]: [core] Final packet stats:
+[1784570708.000818] INFO: [4b88d82a349a4077]: [core] --- Tag '02329b56778ae256', created 2:30 ago for branch ''
+[1784570708.000830] INFO: [4b88d82a349a4077]: [core] ---     subscribed to ''
+[1784570708.000843] INFO: [4b88d82a349a4077]: [core] ---     subscription for ''
+[1784570708.000865] INFO: [4b88d82a349a4077]: [core] ------ Media #1 (audio over RTP/AVP) using unknown codec
+[1784570708.000894] INFO: [4b88d82a349a4077]: [core] --------- Port  192.168.70.161:30062 <>  192.168.70.134:10004, SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 5960 p, 1025120 b, 0 e
+[1784570708.000916] INFO: [4b88d82a349a4077]: [core] --------- Port  192.168.70.161:30063 <>  192.168.70.134:10005 (RTCP), SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 25 p, 1540 b, 0 e
+[1784570708.000936] INFO: [4b88d82a349a4077]: [core] --- Tag '', created 2:30 ago for branch ''
+[1784570708.000948] INFO: [4b88d82a349a4077]: [core] ---     subscribed to '02329b56778ae256'
+[1784570708.000961] INFO: [4b88d82a349a4077]: [core] ---     subscription for '02329b56778ae256'
+[1784570708.000982] INFO: [4b88d82a349a4077]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784570708.001005] INFO: [4b88d82a349a4077]: [core] --------- Port  192.168.70.161:30048 <>                :0    , SSRC 1efa9ad3, in 5960 p, 1025120 b, 0 e, 31 ts, out 0 p, 0 b, 0 e
+[1784570708.001024] INFO: [4b88d82a349a4077]: [core] --------- Port  192.168.70.161:30049 <>                :0     (RTCP), SSRC 1efa9ad3, in 25 p, 1540 b, 0 e, 31 ts, out 0 p, 0 b, 0 e
+[1784570760.832468] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570760.832797] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570820.843871] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570820.844041] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784570884.063465] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570884.063599] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784570940.806287] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784570940.806414] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571000.793057] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571000.793132] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571024.315514] INFO: [2c659eb46912a074]: [control] Received command 'offer' from 192.168.70.160:42511
+[1784571024.315589] WARNING: [2c659eb46912a074]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784571024.315753] NOTICE: [2c659eb46912a074]: [core] Creating new call
+[1784571024.319508] INFO: [2c659eb46912a074]: [control] Replying to 'offer' from 192.168.70.160:42511 (elapsed time 0.003916 sec)
+[1784571061.006881] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571061.006974] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571120.991758] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571120.991928] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571141.623495] INFO: [2c659eb46912a074]: [control] Received command 'delete' from 192.168.70.160:52082
+[1784571141.623789] INFO: [2c659eb46912a074]: [core] Scheduling deletion of call branch '50a258303aac3c60' (via-branch '') in 30 seconds
+[1784571141.623887] INFO: [2c659eb46912a074]: [control] Replying to 'delete' from 192.168.70.160:52082 (elapsed time 0.000292 sec)
+[1784571171.000905] INFO: [2c659eb46912a074]: [core] Call branch '50a258303aac3c60' (via-branch '') deleted, no more branches remaining
+[1784571171.001412] INFO: [2c659eb46912a074]: [core] Final packet stats:
+[1784571171.001460] INFO: [2c659eb46912a074]: [core] --- Tag '50a258303aac3c60', created 2:27 ago for branch ''
+[1784571171.001464] INFO: [2c659eb46912a074]: [core] ---     subscribed to ''
+[1784571171.001468] INFO: [2c659eb46912a074]: [core] ---     subscription for ''
+[1784571171.001584] INFO: [2c659eb46912a074]: [core] ------ Media #1 (audio over RTP/AVP) using unknown codec
+[1784571171.001605] INFO: [2c659eb46912a074]: [core] --------- Port  192.168.70.161:30088 <>  192.168.70.134:10014, SSRC 0, in 0 p, 0 b, 0 e, 147 ts, out 5860 p, 1007920 b, 0 e
+[1784571171.001613] INFO: [2c659eb46912a074]: [core] --------- Port  192.168.70.161:30089 <>  192.168.70.134:10015 (RTCP), SSRC 0, in 0 p, 0 b, 0 e, 147 ts, out 25 p, 1540 b, 0 e
+[1784571171.001620] INFO: [2c659eb46912a074]: [core] --- Tag '', created 2:27 ago for branch ''
+[1784571171.001623] INFO: [2c659eb46912a074]: [core] ---     subscribed to '50a258303aac3c60'
+[1784571171.001625] INFO: [2c659eb46912a074]: [core] ---     subscription for '50a258303aac3c60'
+[1784571171.001634] INFO: [2c659eb46912a074]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784571171.001641] INFO: [2c659eb46912a074]: [core] --------- Port  192.168.70.161:30070 <>                :0    , SSRC 43fb0c08, in 5860 p, 1007920 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784571171.001645] INFO: [2c659eb46912a074]: [core] --------- Port  192.168.70.161:30071 <>                :0     (RTCP), SSRC 43fb0c08, in 25 p, 1540 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784571181.017865] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571181.017915] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571221.239290] INFO: [6b8c1adc72bc5b37]: [control] Received command 'offer' from 192.168.70.160:42511
+[1784571221.239714] WARNING: [6b8c1adc72bc5b37]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784571221.239959] NOTICE: [6b8c1adc72bc5b37]: [core] Creating new call
+[1784571221.245022] INFO: [6b8c1adc72bc5b37]: [control] Replying to 'offer' from 192.168.70.160:42511 (elapsed time 0.005408 sec)
+[1784571240.978343] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571240.978400] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571300.988037] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571300.988099] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571341.287012] INFO: [6b8c1adc72bc5b37]: [control] Received command 'delete' from 192.168.70.160:43408
+[1784571341.287221] INFO: [6b8c1adc72bc5b37]: [core] Scheduling deletion of call branch '1905b47a03b2b7a6' (via-branch '') in 30 seconds
+[1784571341.287250] INFO: [6b8c1adc72bc5b37]: [control] Replying to 'delete' from 192.168.70.160:43408 (elapsed time 0.000153 sec)
+[1784571360.994933] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571360.995021] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571371.000245] INFO: [6b8c1adc72bc5b37]: [core] Call branch '1905b47a03b2b7a6' (via-branch '') deleted, no more branches remaining
+[1784571371.000308] INFO: [6b8c1adc72bc5b37]: [core] Final packet stats:
+[1784571371.000314] INFO: [6b8c1adc72bc5b37]: [core] --- Tag '1905b47a03b2b7a6', created 2:30 ago for branch ''
+[1784571371.000316] INFO: [6b8c1adc72bc5b37]: [core] ---     subscribed to ''
+[1784571371.000318] INFO: [6b8c1adc72bc5b37]: [core] ---     subscription for ''
+[1784571371.000323] INFO: [6b8c1adc72bc5b37]: [core] ------ Media #1 (audio over RTP/AVP) using unknown codec
+[1784571371.000330] INFO: [6b8c1adc72bc5b37]: [core] --------- Port  192.168.70.161:30018 <>  192.168.70.134:10008, SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 5996 p, 1031312 b, 0 e
+[1784571371.000335] INFO: [6b8c1adc72bc5b37]: [core] --------- Port  192.168.70.161:30019 <>  192.168.70.134:10009 (RTCP), SSRC 0, in 0 p, 0 b, 0 e, 150 ts, out 25 p, 1540 b, 0 e
+[1784571371.000339] INFO: [6b8c1adc72bc5b37]: [core] --- Tag '', created 2:30 ago for branch ''
+[1784571371.000341] INFO: [6b8c1adc72bc5b37]: [core] ---     subscribed to '1905b47a03b2b7a6'
+[1784571371.000343] INFO: [6b8c1adc72bc5b37]: [core] ---     subscription for '1905b47a03b2b7a6'
+[1784571371.000348] INFO: [6b8c1adc72bc5b37]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784571371.000352] INFO: [6b8c1adc72bc5b37]: [core] --------- Port  192.168.70.161:30000 <>                :0    , SSRC 477ca142, in 5996 p, 1031312 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784571371.000356] INFO: [6b8c1adc72bc5b37]: [core] --------- Port  192.168.70.161:30001 <>                :0     (RTCP), SSRC 477ca142, in 25 p, 1540 b, 0 e, 30 ts, out 0 p, 0 b, 0 e
+[1784571421.015274] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571421.015476] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571450.748603] INFO: [35562f4e2535d846]: [control] Received command 'offer' from 192.168.70.160:33854
+[1784571450.748646] WARNING: [35562f4e2535d846]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784571450.749173] NOTICE: [35562f4e2535d846]: [core] Creating new call
+[1784571450.751375] INFO: [35562f4e2535d846]: [control] Replying to 'offer' from 192.168.70.160:33854 (elapsed time 0.002729 sec)
+[1784571450.821738] INFO: [35562f4e2535d846]: [control] Received command 'answer' from 192.168.70.160:43408
+[1784571450.821801] WARNING: [35562f4e2535d846]: [core] Unknown dictionary key encountered: 'sip-message-type'
+[1784571450.822287] INFO: [35562f4e2535d846]: [control] Replying to 'answer' from 192.168.70.160:43408 (elapsed time 0.000482 sec)
+[1784571454.011060] INFO: [35562f4e2535d846 port 30028]: [core] Confirmed peer address as 192.168.70.134:10004
+[1784571454.011314] WARNING: [35562f4e2535d846 port 30028]: [core] No support for kernel packet forwarding available (interface to kernel module not open)
+[1784571454.019398] INFO: [35562f4e2535d846 port 30044]: [core] Confirmed peer address as 192.168.70.134:40997
+[1784571454.019940] WARNING: [35562f4e2535d846 port 30044]: [core] No support for kernel packet forwarding available (interface to kernel module not open)
+[1784571455.779332] INFO: [35562f4e2535d846 port 30029]: [core] Confirmed peer address as 192.168.70.134:10005
+[1784571455.779996] WARNING: [35562f4e2535d846 port 30029]: [core] No support for kernel packet forwarding available (interface to kernel module not open)
+[1784571455.874994] INFO: [35562f4e2535d846 port 30045]: [core] Confirmed peer address as 192.168.70.134:13591
+[1784571455.875155] WARNING: [35562f4e2535d846 port 30045]: [core] No support for kernel packet forwarding available (interface to kernel module not open)
+[1784571483.826987] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571483.827050] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571541.016582] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571541.016743] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571601.024423] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571601.024505] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571627.199048] INFO: [35562f4e2535d846]: [control] Received command 'delete' from 192.168.70.160:33854
+[1784571627.200374] INFO: [35562f4e2535d846]: [core] Scheduling deletion of call branch '1478b3e13c5c08f5' (via-branch '') in 30 seconds
+[1784571627.200485] INFO: [35562f4e2535d846]: [control] Replying to 'delete' from 192.168.70.160:33854 (elapsed time 0.001302 sec)
+[1784571658.616606] INFO: [35562f4e2535d846]: [core] Call branch '1478b3e13c5c08f5' (via-branch '') deleted, no more branches remaining
+[1784571658.617154] INFO: [35562f4e2535d846]: [core] Final packet stats:
+[1784571658.617235] INFO: [35562f4e2535d846]: [core] --- Tag '60ad5f85245d080b', created 3:28 ago for branch ''
+[1784571658.617257] INFO: [35562f4e2535d846]: [core] ---     subscribed to '1478b3e13c5c08f5'
+[1784571658.617261] INFO: [35562f4e2535d846]: [core] ---     subscription for '1478b3e13c5c08f5'
+[1784571658.617598] INFO: [35562f4e2535d846]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784571658.617682] INFO: [35562f4e2535d846]: [core] --------- Port  192.168.70.161:30044 <>  192.168.70.134:40997, SSRC 20a5b703, in 343 p, 58996 b, 0 e, 201 ts, out 8816 p, 1516352 b, 0 e
+[1784571658.617698] INFO: [35562f4e2535d846]: [core] --------- Port  192.168.70.161:30045 <>  192.168.70.134:13591 (RTCP), SSRC 20a5b703, in 2 p, 104 b, 0 e, 203 ts, out 36 p, 3060 b, 0 e
+[1784571658.617710] INFO: [35562f4e2535d846]: [core] --- Tag '1478b3e13c5c08f5', created 3:28 ago for branch ''
+[1784571658.617713] INFO: [35562f4e2535d846]: [core] ---     subscribed to '60ad5f85245d080b'
+[1784571658.617717] INFO: [35562f4e2535d846]: [core] ---     subscription for '60ad5f85245d080b'
+[1784571658.617730] INFO: [35562f4e2535d846]: [core] ------ Media #1 (audio over RTP/AVP) using PCMU/8000
+[1784571658.617822] INFO: [35562f4e2535d846]: [core] --------- Port  192.168.70.161:30028 <>  192.168.70.134:10004, SSRC 22d0e37a, in 8816 p, 1516352 b, 0 e, 31 ts, out 343 p, 58996 b, 0 e
+[1784571658.617830] INFO: [35562f4e2535d846]: [core] --------- Port  192.168.70.161:30029 <>  192.168.70.134:10005 (RTCP), SSRC 22d0e37a, in 36 p, 3060 b, 0 e, 31 ts, out 2 p, 104 b, 0 e
+[1784571658.617835] INFO: [35562f4e2535d846]: [core] --- SSRC 22d0e37a
+[1784571658.617839] INFO: [35562f4e2535d846]: [core] ------ Average MOS 4.3, lowest MOS 4.3 (at 0:10), highest MOS 4.3 (at 0:10) lost:0
+[1784571658.617843] INFO: [35562f4e2535d846]: [core] ------ respective (avg/min/max) jitter 12/12/12 ms, RTT-e2e 74.5/85.8/85.8 ms, RTT-dsct 30.5/41.8/41.8 ms, packet loss 0/0/0%
+[1784571661.014104] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571661.014163] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571721.012450] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571721.012498] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571780.977131] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571780.977188] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784571841.029743] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571841.029811] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000000 sec)
+[1784571900.982009] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571900.982158] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784571960.981171] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784571960.981509] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572021.009579] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572021.009785] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572081.005276] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572081.005542] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572141.015885] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572141.016936] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572200.984024] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572200.984632] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784572261.014002] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572261.014357] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572320.986833] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572320.986998] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784572381.010050] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572381.010188] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784572440.992612] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572440.992754] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784572503.938610] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572503.938759] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572561.010877] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572561.010985] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000019 sec)
+[1784572621.021852] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572621.022058] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784572681.011518] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572681.011605] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572741.060539] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572741.061146] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572800.978257] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572800.978387] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572860.993195] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572860.993258] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784572920.981523] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572920.981623] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784572980.996813] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784572980.998438] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000003 sec)
+[1784573041.002727] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573041.002809] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784573103.954573] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573103.954831] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784573160.998472] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573160.998646] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784573220.972595] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573220.973496] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784573280.978488] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573280.978921] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784573341.002978] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573341.003281] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784573400.975906] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573400.976108] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784573460.993996] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573460.994235] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000002 sec)
+[1784573523.799340] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573523.799470] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
+[1784573581.015491] INFO: [control] Received command 'ping' from 192.168.70.160:53268
+[1784573581.015664] INFO: [control] Replying to 'ping' from 192.168.70.160:53268 (elapsed time 0.000001 sec)
