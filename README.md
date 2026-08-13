@@ -5,9 +5,6 @@ over-the-top SIP voice service (Kamailio + RTPengine + baresip) running genuinel
 data plane, plus an AI-based call-quality (MOS) predictor and a live Grafana/InfluxDB monitoring
 dashboard.
 
-Built as part of a technical assessment for a wissenschaftliche/r Mitarbeiter/in position
-(AI4Open6GNet project).
-
 ---
 
 ## Table of Contents
