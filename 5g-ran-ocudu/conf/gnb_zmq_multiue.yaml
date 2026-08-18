@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (C) 2021-2026 Software Radio Systems Limited
+# SPDX-License-Identifier: BSD-3-Clause-Open-MPI
+
+# This configuration file example shows how to configure the OCUDU gNB to allow OAI UE to connect to it.
+# This specific example uses ZMQ in place of a USRP for the RF-frontend, and creates an TDD cell with 20 MHz bandwidth and 30 kHz SCS.
+# To run the OCUDU gNB with this config, use the following command:
+#   sudo ./gnb -c gnb_zmq.yaml
+
+cu_cp:
+  amf:
+    no_core: false
+    addr: 192.168.70.132                 # The address or hostname of the AMF.
+    port: 38412
+    bind_addr: 192.168.70.129            # A local IP that the gNB binds to for traffic from the AMF.
+    supported_tracking_areas:
+      - tac: 1
+        plmn_list:
+          - plmn: "00101"
+            tai_slice_support_list:
+              - sst: 1
+  inactivity_timer: 7200            # Sets the UE/PDU Session/DRB inactivity timer to 7200 seconds. Supported: [1 - 7200].
+
+ru_sdr:
+  device_driver: zmq
+  device_args: tx_port=tcp://127.0.0.1:2000,rx_port=tcp://127.0.0.1:2001
+  srate: 23.04
+  tx_gain: -12
+  rx_gain: 0
+
+cell_cfg:
+  dl_arfcn: 632628
+  band: 78
+  channel_bandwidth_MHz: 20
+  common_scs: 30
+  plmn: "00101"
+  tac: 1
+  pci: 1
+  tdd_ul_dl_cfg:
+    dl_ul_tx_period: 5
+    nof_dl_slots: 3
+    nof_dl_symbols: 10
+    nof_ul_slots: 1
+    nof_ul_symbols: 2
+  csi:
+    csi_rs_enabled: true
+  pucch:
+    nof_cell_csi_res: 1
+
+  prach:
+    total_nof_ra_preambles: 64
+    nof_ssb_per_ro: 1
+    nof_cb_preambles_per_ssb: 64
+log:
+  filename: /tmp/gnb.log            # Path of the log file.
+  all_level: info                   # Logging level applied to all layers.
+  hex_max_size: 0
+
+pcap:
+  mac_enable: false                 # Set to true to enable MAC-layer PCAPs.
+  mac_filename: /tmp/gnb_mac.pcap   # Path where the MAC PCAP is stored.
+  ngap_enable: false                # Set to true to enable NGAP PCAPs.
+  ngap_filename: /tmp/gnb_ngap.pcap # Path where the NGAP PCAP is stored.
